@@ -1,13 +1,14 @@
 import './App.css';
 import Sidebar from './components/Sidebar';
-import TweetBox from './components/TweetBox';
+import Widgets from './components/Widgets';
 import Feed from './components/Feed';
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <Sidebar />
       <Feed />
+      <Widgets />
     </div>
   );
 }
